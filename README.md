@@ -1,10 +1,6 @@
----
-
 # 🛍️ Catálogo Reinstreet
 
 **Catálogo Reinstreet** é um aplicativo Flutter voltado para a exibição dinâmica de produtos, com uma interface moderna inspirada em apps como **Shein**, integrando recursos com **Firebase** para gerenciamento em tempo real de dados e autenticação de usuários.
-
----
 
 ## 🚀 Funcionalidades
 
