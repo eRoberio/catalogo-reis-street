@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156214626284",
+    "project_id": "reisstreet-bc6a7",
+    "storage_bucket": "reisstreet-bc6a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156214626284:android:6f7f1e5a925ae7f8c922c9",
+        "android_client_info": {
+          "package_name": "com.example.catalogo_reinstreet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB839tj2Hxg6a59C7ytM0DtIXmqrn8Pnd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
