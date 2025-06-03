@@ -32,6 +32,12 @@ class _CartPageState extends State<CartPage> {
 
     for (var doc in snapshot.docs) {
       final data = doc.data();
+      if (!data.containsKey('name') ||
+          !data.containsKey('price') ||
+          !data.containsKey('quantity')) {
+        continue; 
+      }
+
       final itemName = data['name'];
 
       if (groupedItems.containsKey(itemName)) {
@@ -79,9 +85,10 @@ class _CartPageState extends State<CartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Carrinho de Compras', style: TextStyle(
-  color: Colors.white,
-),),
+        title: Text(
+          'Carrinho de Compras',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: Colors.black,
         iconTheme: IconThemeData(color: Colors.white),
       ),
